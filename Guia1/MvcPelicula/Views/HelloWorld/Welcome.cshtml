@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Bienvenido";
+}
+<h2>Bienvenido</h2>
+
+<ul>
+    @for (int i = 0; i < ViewBag.NumVeces; i++)
+    {
+      
+        
+        <li>@ViewBag.Mensaje @ViewBag.cont</li>
+
+        ViewBag.cont++;
+    }
+</ul>
+
